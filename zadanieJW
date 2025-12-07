@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nowe_akapity</title>
+</head><body>
+    <button id="stworzony_akapit">stwórz nowy</button>
+       <div id="akapity"></div>
+<script>
+    let kolejny=1;
+    let button=document.querySelector("#stworzony_akapit");
+button.addEventListener("click", dodajAkapit);
+  function dodajAkapit(){
+        let miejsce_akapitow=document.querySelector("#akapity");
+        let nakapit=document.createElement("p");
+        nakapit.innerHTML="Akapit nr   " + kolejny;
+        miejsce_akapitow.appendChild(nakapit);
+        kolejny++
+    }
+</script>    
+</body>
+</html>
