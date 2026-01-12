@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Zadanie 2</title>
+<style>
+    body{
+        background:linear-gradient(to right,rgb(63,8,60),blue);
+        text-align:center;
+        font-family:Arial;
+    }
+    
+    h1{
+        font-size:60px;
+        color:rgb(206,113,51);
+        text-shadow:3px 3px 8px black;
+        text-transform:uppercase;
+    }
+  
+    div{
+        width:300px;
+        height:150px;
+        margin:20px auto;
+        box-shadow:5px 5px 10px black;
+    }
+
+    p{
+        font-size:24px;
+        color:rgb(13,133,19);
+    }
+
+    .ef1{
+        font-style:italic;
+    }
+
+    .ef2{
+        text-shadow:3px 3px 5px black;
+        text-decoration:underline;
+    }
+   
+    .ef3{
+        letter-spacing:7px;
+        text-transform:uppercase;
+    }
+</style>
+    </head>
+<body>
+    <h1>Rafał</h1>
+    <div style="background:radial-gradient(circle,pink,red);"></div>
+    <div style="background:white;"></div>
+    <p class="ef1">Efekt tekstowy 1</p>
+    <p class="ef2">Efekt tekstowy 2</p>
+    <p class="ef3">Efekt tekstowy 3</p>
+</body>
+</html>
