@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Wstawianie nowych elementów HTML przed "innymi" elementem HTML</h1>
+</body>
+<script>
+    //W <div> dodajemy <span> przed <p>
+    let container= document.createElement("div");
+    let p=document.createElement("p");
+    container.appendChild(p);
+    let span = document.createElement("span");
+    p.before(span); // span wstawiamy przed p
+    console.log(container.outerHTML);
+    //"<div><span></span><p></p></div>"
+</script>
+</html>
